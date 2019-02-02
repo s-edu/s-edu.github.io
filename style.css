@@ -29,7 +29,7 @@ body#contact-page{
 .biopic {
   position: absolute;
   top: 20%;
-  left: 32%;
+  left: 30%;
 }
 
 img {
@@ -40,7 +40,7 @@ img {
 .myname	{
 	position: absolute;
 	top: 20%;
-	margin-top: -100px;
+	margin-top: -130px;
 }
 
 .myname h1  {
