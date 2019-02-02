@@ -28,7 +28,7 @@ body#contact-page{
 
 .biopic {
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 32%;
 }
 
@@ -37,11 +37,16 @@ img {
   height: 35%;
 }
 
+.myname	{
+	position: absolute;
+	top: 25%
+}
+
 .myname h1  {
 
   text-align: center;
   font-family: 'Faustina', sans-serif;
-  margin-top:	-50px;  
+
   font-size: 60px;
   color: #458B00;/*#e6ac00; */
 }
@@ -49,6 +54,7 @@ img {
 .myname h3  {
   text-align: center;
   font-family: 'Faustina', sans-serif;
+  margin-top: 60px;
   margin-bottom: -50px;
   font-size: 40px;
   color: #323232;
