@@ -115,9 +115,9 @@ img {
   font-family: 'Patua One', sans-serif;
   font-size: 50px;
   color: #323232;
-  text-align: center;
+  text-align: right;
   margin-bottom: 30px;
-  margin-left: 800px;
+  margin-right: 150px;
 }
 
 .description p {
