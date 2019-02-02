@@ -329,3 +329,32 @@ img {
   margin-top: -85px;
   margin-left: 80px;
 }
+
+@media(max-width: 840px)	{
+	
+	.biopic {
+		position: absolute;
+		top: 25%;
+		left: 32%;
+	}
+
+	img {
+		width: 35%;
+		height: 35%;
+	}
+	
+	.myname	{
+		position: absolute;
+		top: 0;
+	}
+
+	.myname h3  {
+		text-align: center;
+		font-family: 'Faustina', sans-serif;
+		margin-top: 0;
+		margin-bottom: -40px;
+		font-size: 40px;
+		color: #323232;
+	}
+	
+}
