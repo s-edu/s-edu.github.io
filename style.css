@@ -1,0 +1,326 @@
+body#home-page{
+  margin: 0;
+  padding: 0;
+  background-image: url("background1.png");
+  background-size: cover;
+}
+
+body#about-page{
+  margin: 0;
+  padding: 0;
+  background-image: url("background2.png");
+  background-size: cover;
+}
+
+body#experience-page{
+  margin: 0;
+  padding: 0;
+  background-image: url("background3.png");
+  background-size: cover;
+}
+
+body#contact-page{
+  margin: 0;
+  padding: 0;
+  background-image: url("background4.png");
+  background-size: cover;
+}
+
+.biopic {
+  position: absolute;
+  top: 20%;
+  left: 32%;
+}
+
+img {
+  width: 40%;
+  height: 35%;
+}
+
+.myname h1  {
+
+  text-align: center;
+  font-family: 'Faustina', sans-serif;
+
+  font-size: 60px;
+  color: #458B00;/*#e6ac00; */
+}
+
+.myname h3  {
+  text-align: center;
+  font-family: 'Faustina', sans-serif;
+  margin-top: 60px;
+  margin-bottom: -50px;
+  font-size: 40px;
+  color: #323232;
+}
+
+.myname h4  {
+  text-align: right;
+  font-family: 'Faustina', sans-serif;
+  margin-top: -40px;
+  font-size: 20px;
+  font-style: normal;
+  color: #323232;
+}
+
+.navbar {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.navbar li  {
+  display: inline-block;
+}
+
+.navbar li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #323232;
+  font-size: 25px;
+  padding: 0 20px;
+  font-family: 'Faustina', sans-serif;
+}
+
+.navbuttons::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #458B00;
+  transition: width .3s;
+}
+
+.navbuttons:hover::after  {
+  width: 100%;
+  transition: width .3s;
+}
+
+.navbar .currentpage {
+
+  color: green;
+}
+
+/*--------------- About Me Page -------------------- */
+
+.description {
+
+  margin-top: 150px;
+}
+
+.description h1 {
+
+  font-family: 'Patua One', sans-serif;
+  font-size: 50px;
+  color: #323232;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-left: 800px;
+}
+
+.description p {
+
+  font-family: 'Faustina';
+  text-align: justify;
+  margin-left: 450px;
+  margin-right: 150px;
+  font-size: 18px;
+  color: #323232;
+}
+
+.description h2 {
+
+  text-align: center;
+  margin-top: 60px;
+  font-family: 'Patua One', sans-serif;
+  font-style: normal;
+  margin-left: 350px;
+  margin-bottom: 20px;
+}
+
+.description table  {
+
+  margin-left: 500px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+}
+
+.description td, th {
+
+  padding: 8px;
+  border: 2px solid #dddddd;
+}
+
+.description tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/*--------------- Experience Page -------------------- */
+
+.experience-container {
+
+  margin-top: 100px;
+  position: absolute;
+  width: 85%;
+  padding-bottom: 80px;
+}
+
+.experience-container h1 {
+
+  font-family: 'Patua One', sans-serif;
+  font-size: 50px;
+  color: #323232;
+  text-align: left;
+  margin-left: 90px;
+  margin-bottom: 0px;
+}
+
+.experience-container h2 {
+
+  font-family: 'Cabin', sans-serif;
+  font-size: 18px;
+  color: #323232;
+  text-align: left;
+  margin-left: 90px;
+  margin-top: 40px;
+}
+
+.experience-container h3 {
+
+  font-family: 'Faustina', sans-serif;
+  font-size: 18px;
+  color: #323232;
+  text-align: left;
+  margin-top: -10px;
+  margin-left: 90px;
+  font-style: italic;
+}
+
+.experience-container li  {
+
+  margin-left: 90px;
+  margin-right: 200px;
+  font-family: 'Faustina', sans-serif;
+  font-size: 16px;
+  color: #323232;
+  text-align: justify;
+  margin-top: -5px;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+
+/*--------------- Contact Page -------------------- */
+
+.myname {
+  position: absolute;
+  top: 58%;
+  left: 25%;
+  border: 10px;
+  border-color: #fff;
+}
+
+.contactme  {
+  position: absolute;
+  width: 25%;
+  top: 20%;
+  left: 20%;
+  text-align: center;
+}
+
+.contactme h4 {
+  font-family: 'Patua One', sans-serif;
+  font-size: 25px;
+  color: #323232;
+}
+
+.form-contact  {
+
+  font-size: 14px;
+  font-family: 'Faustina', sans-serif;
+}
+
+.input-contact {
+
+  border: 1px solid #458B00;
+  background: white;
+  margin: 8px 0;
+  padding: 5px 8px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.input-contact input, .input-contact textarea {
+
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 14px;
+  padding-left: 10px;
+  resize: none;
+  scroll-behavior: smooth;
+}
+
+.btn {
+
+  display: inline-block;
+  background: #458B00;
+  color: white;
+  cursor: pointer;
+  padding: 8px 17px;
+  border-radius: 20px;
+  margin-top: 10px;
+  font-family: 'Patua One', sans-serif;
+}
+
+.btn:hover{
+
+  background-color: white;
+  border: solid #458B00;
+  border-width: thin;
+  color: #458B00;
+  transition: .6s;
+}
+
+.myinfo  {
+  position: absolute;
+  width: 25%;
+  top: 30%;
+  left: 53%;
+}
+
+.emailme i {
+
+  color: #458B00;
+  font-size: 50px;
+  padding-bottom: 50px;
+  padding-right: 30px;
+  padding-top: 40px;
+}
+
+.emailme h3  {
+
+  color: #323232;
+  font-family: 'Aleo', sans-serif;
+  margin-top: -85px;
+  margin-left: 80px;
+}
+
+.phoneme i {
+
+  color: #458B00;
+  font-size: 53px;
+  padding-bottom: 50px;
+  padding-right: 30px;
+  padding-top: 40px;
+}
+
+.phoneme h3  {
+
+  color: #323232;
+  font-family: 'Aleo', sans-serif;
+  margin-top: -85px;
+  margin-left: 80px;
+}
