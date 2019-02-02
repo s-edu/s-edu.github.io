@@ -330,11 +330,11 @@ img {
   margin-left: 80px;
 }
 
-@media(max-width: 840px)	{
+@media(max-width: 800px)	{
 	
 	.biopic {
 		position: absolute;
-		top: 20%;
+		top: 15%;
 		left: 32%;
 	}
 
