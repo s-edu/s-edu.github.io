@@ -121,7 +121,7 @@ body  {
 
 }
 
-@media (min-width: 280px) and (max-width: 480px) {
+@media (orientation: portrait) and (max-width: 480px){
 
   .calc-main  {
 
