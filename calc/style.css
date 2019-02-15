@@ -118,7 +118,7 @@ body  {
 
 }
 
-@media only screen and (orientation: portrait) and (max-width: 480px){
+@media only screen and (orientation: portrait) and (max-width: 480px) and (-webkit-device-pixel-ratio : 3){
 
   .calc-main  {
 
