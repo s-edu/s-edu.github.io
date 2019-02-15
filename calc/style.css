@@ -21,7 +21,6 @@ body  {
    text-align: center;
    cursor: pointer;
    font-size: 55px;
-   padding-top: 13px;
 }
 
 .btn:hover  {
@@ -101,7 +100,6 @@ body  {
     overflow: hidden;
     white-space: nowrap;
     padding: 12px;
-    border-radius: 5px 5px 0 0;
     width: 66%;
     margin-bottom: -2px;
   }
@@ -116,7 +114,6 @@ body  {
      text-align: center;
      cursor: pointer;
      font-size: 50px;
-     padding-top: 13px;
   }
 
 }
@@ -138,7 +135,6 @@ body  {
     overflow: hidden;
     white-space: nowrap;
     padding: 12px;
-    border-radius: 5px 5px 0 0;
     width: 260px;
     margin-bottom: -2px;
   }
@@ -153,7 +149,7 @@ body  {
      text-align: center;
      cursor: pointer;
      font-size: 35px;
-     padding-top: 0;
+     border-radius: 0;
   }
 
 }
