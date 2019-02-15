@@ -111,11 +111,11 @@ body  {
 
 }
 
-@media (max-width: 480px){
+@media (min-width: 321px) and (max-width: 480px) {
 
   .calc-main  {
 
-    margin-left: 0;
+    margin-left: calc(50% - 200px);
     top: 10px;
   }
 
