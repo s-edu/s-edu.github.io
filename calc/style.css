@@ -125,13 +125,13 @@ body  {
 
   .calc-main  {
 
-    margin-left: calc(50% - 150px);
+    margin-left: calc(50% - 130px);
     top: 10px;
   }
 
   #textbox  {
     text-align: right;
-    height: 70px;
+    height: 60px;
     color: white;
     font-size: 40px;
     background-color: green;
@@ -139,7 +139,7 @@ body  {
     white-space: nowrap;
     padding: 12px;
     border-radius: 5px 5px 0 0;
-    width: 50%;
+    width: 260px;
     margin-bottom: -2px;
   }
 
@@ -147,8 +147,8 @@ body  {
 
      background-color: #000;
      color: white;
-     width: 75px;
-     height: 70px;
+     width: 65px;
+     height: 60px;
      border: 1px solid grey;
      text-align: center;
      cursor: pointer;
