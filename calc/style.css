@@ -4,13 +4,13 @@
 
 body  {
 
-  -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
+  /** Removes the ability to select texts, to improve UI */
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 
 
   background: #f6f6f6;
@@ -19,13 +19,14 @@ body  {
 
 }
 
+/** Keeps the div width at 600px and centered for desktops,
+    and fits edge-to-edge for mobile devices*/
 .calc-main  {
   max-width: 600px;
   margin: 0 auto;
 }
 
 .calc-disp  {
-  /* background: #edc2eb; */
   background: #3d2baf;
   box-shadow: none;
   width: 100%;
@@ -67,7 +68,7 @@ body  {
 
 .calc-AC {
 	color: #c11534 !important;
-	
+
 }
 
 .calc-operator  {
@@ -85,12 +86,3 @@ body  {
 .calc-btn:hover {
   background-color: #eaddc0;
 }
-
-/**
-@media (min-width: 281px) and (max-width: 480px) {
-  .calc-main  {
-    max-width: 400px;
-  }
-
-}
-*/

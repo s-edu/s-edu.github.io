@@ -7,18 +7,23 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
 
     <script type="text/javascript">
+
+        <!-- Any pressed button will be passed through to a list using 'x' as the parameter-->
         function displayBtn(x) {
           frm.txt.value=frm.txt.value+x;
         }
 
+        <!-- Function to clear the list when the AC button is pressed-->
         function clearAC()  {
           frm.txt.value="";
         }
 
+        <!-- Function to slice off the last entered element on the list-->
         function backSpace()  {
           frm.txt.value=frm.txt.value.slice(0,frm.txt.value.length-1)
         }
 
+        <!-- Function to pass through numbers and operators to be calculated-->
         function calcAnswer(x) {
 
           try {
