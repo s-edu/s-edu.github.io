@@ -53,6 +53,10 @@ body  {
   cursor: pointer;
 }
 
+.calc-btn:focus {
+  border: 0;
+}
+
 .calc-btn:hover {
   background-color: #686868;
 }
