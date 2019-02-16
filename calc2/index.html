@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+    <script type="text/javascript">
+        function displayBtn(x) {
+          frm.txt.value=frm.txt.value+x;
+        }
+
+        function clearAC()  {
+          frm.txt.value="";
+        }
+
+        function backSpace()  {
+          frm.txt.value=frm.txt.value.slice(0,frm.txt.value.length-1)
+        }
+
+        function calcAnswer(x) {
+
+          try {
+            frm.txt.value=eval(x);
+
+            if(frm.txt.value == "Infinity") throw "Error";
+            if(isNaN(frm.txt.value)) throw "Error";
+          }
+
+          catch (e) {
+            frm.txt.value="Error";
+          }
+        }
+    </script>
+
+  </head>
+  <title>Calculator</title>
+
+  <body>
+    <div class="calc-main">
+      <form name="frm">
+        <input class="calc-disp" id="textbox" type="textbox" name="txt">
+
+        <div class="calc-buttons">
+          <input class="calc-btn" type="button" id="" name="openP" value="(" onclick="displayBtn(openP.value)">
+          <input class="calc-btn" type="button" id="" name="closeP" value=")" onclick="displayBtn(closeP.value)">
+          <input class="calc-btn" type="button" id="" value="&#8592;" onclick="backSpace()">
+          <input class="calc-btn" type="button" id="" value="AC" onclick="clearAC()">
+
+          <input class="calc-btn" type="button" name="btn7" value="7" onclick="displayBtn(btn7.value)">
+          <input class="calc-btn" type="button" name="btn8" value="8" onclick="displayBtn(btn8.value)">
+          <input class="calc-btn" type="button" name="btn9" value="9" onclick="displayBtn(btn9.value)">
+          <input class="calc-btn" type="button" name="btndiv" value="/" onclick="displayBtn(btndiv.value)">
+
+          <input class="calc-btn" type="button" name="btn4" value="4" onclick="displayBtn(btn4.value)">
+          <input class="calc-btn" type="button" name="btn5" value="5" onclick="displayBtn(btn5.value)">
+          <input class="calc-btn" type="button" name="btn6" value="6" onclick="displayBtn(btn6.value)">
+          <input class="calc-btn" type="button" name="btnmul" value="*" onclick="displayBtn(btnmul.value)">
+
+          <input class="calc-btn" type="button" name="btn1" value="1" onclick="displayBtn(btn1.value)">
+          <input class="calc-btn" type="button" name="btn2" value="2" onclick="displayBtn(btn2.value)">
+          <input class="calc-btn" type="button" name="btn3" value="3" onclick="displayBtn(btn9.value)">
+          <input class="calc-btn" type="button" name="btnsub" value="-" onclick="displayBtn(btnsub.value)">
+
+          <input class="calc-btn" type="button" name="btn0" value="0" onclick="displayBtn(btn0.value)">
+          <input class="calc-btn" type="button" name="btndec" value="." onclick="displayBtn(btndec.value)">
+          <input class="calc-btn" type="button" name="btneq" value="=" onclick="calcAnswer(txt.value)">
+          <input class="calc-btn" type="button" name="btnpl" value="+" onclick="displayBtn(btnpl.value)">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
