@@ -64,6 +64,14 @@ body  {
   cursor: pointer;
 }
 
+.calc-operator  {
+  background: orange !important;
+}
+
+.calc-operator:hover  {
+  color: green !important;
+}
+
 .calc-btn:focus {
   outline: 0;
 }
